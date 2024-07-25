@@ -1,8 +1,38 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitHub Users Finder
+This project allows users to search for GitHub profiles by username and displays the user's profile information.
 
-Currently, two official plugins are available:
+Getting Started
+These instructions will help you set up and run the project on your local machine.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Prerequisites
+Make sure you have the following installed:
+
+Node.js
+npm (Node Package Manager)
+
+
+Installation
+Clone the repository:
+
+
+git clone https://github.com/yourusername/github-users-finder.git
+cd github-users-finder
+Install the dependencies:
+
+npm install
+Start the development server:
+npm start
+
+
+Usage
+
+Search GitHub User: Enter a GitHub username in the input field and click "Search".
+View Profile Information: The profile information of the searched user will be displayed below the search input.
+
+
+
+
+
+
+
