@@ -14,13 +14,9 @@ export default function GithubUsers() {
       const results = await res.json();
       if (results) {
         setUserData(results);
-        setUsername("")
+        setUsername("");
         setLoading(false);
       }
-      console.log(results);
-      console.log(`'this is' ${userData}`);
-
-
     } catch (error) {
       console.log(error);
       setLoading(false);
@@ -32,7 +28,7 @@ export default function GithubUsers() {
   }
 
   function handleSearch() {
-    fetchGithubUser()
+    fetchGithubUser();
   }
 
   useEffect(() => {
@@ -47,15 +43,13 @@ export default function GithubUsers() {
         <input
           type="text"
           name="search-by-username"
-          placeholder="search github username"
+          placeholder="enter github username"
           value={userName}
           onChange={onChange}
         />
         <button onClick={handleSearch}>Search</button>
       </div>
-      {
-        userData !== null ? <User user={userData}/> : null
-      }
+      {userData !== null ? <User user={userData} /> : null}
     </div>
   );
 }
