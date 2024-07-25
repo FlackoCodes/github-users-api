@@ -22,6 +22,7 @@ Install the dependencies:
 
 <br>
 npm install
+
 Start the development server:
 npm start
 
@@ -29,6 +30,7 @@ npm start
 <br>
 Usage
 <br>
+
 Search GitHub User: Enter a GitHub username in the input field and click "Search".
 View Profile Information: The profile information of the searched user will be displayed below the search input.
 
