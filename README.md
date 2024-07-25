@@ -4,16 +4,9 @@ This project allows users to search for GitHub profiles by username and displays
 
 <br>
 Getting Started <br>
+
 These instructions will help you set up and run the project on your local machine.
 <br>
-
-
-Prerequisites <br>
-Make sure you have the following installed:
-<br>
-
-Node.js
-npm (Node Package Manager)
 
 
 <br>
