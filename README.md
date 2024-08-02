@@ -18,6 +18,8 @@ Clone the repository:
 
 git clone https://github.com/yourusername/github-users-finder.git
 cd github-users-finder
+
+
 Install the dependencies:
 
 npm install
