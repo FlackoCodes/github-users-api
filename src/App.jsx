@@ -3,7 +3,7 @@ import GithubUsers from "./GithubUsers";
 function App() {
   return (
     <>
-      <div className="dark:bg-white">
+      <div>
         <GithubUsers />
       </div>
     </>

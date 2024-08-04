@@ -33,7 +33,7 @@ export default function User({ user }) {
       </div>
       <div>
         <div className="flex justify-between gap-10 items-center">
-          <p className="text-white font-semibold">{name ? name : login}</p>
+          <p className="text-white font-semibold">{name || login}</p>
           <p className="text-gray-500">
             Joined on {day} {month} {year}
           </p>
@@ -136,3 +136,4 @@ export default function User({ user }) {
 //   </div>
 // </div>
 // </div>
+ 
