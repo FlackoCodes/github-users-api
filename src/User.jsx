@@ -63,7 +63,9 @@ export default function User({ user }) {
         <div className="flex justify-between gap-3 items-center">
           <div className="flex gap-1 items-center">
             <FaLocationDot className="text-white" />
-            <p className="text-gray-300 text-s font-bold">{location}</p>
+            <p className="text-gray-300 text-s font-bold">
+              {location || "Unknown"}
+            </p>
           </div>
           <div className="flex gap-1 items-center">
             <FaTwitter className="text-white" />
@@ -136,4 +138,3 @@ export default function User({ user }) {
 //   </div>
 // </div>
 // </div>
- 

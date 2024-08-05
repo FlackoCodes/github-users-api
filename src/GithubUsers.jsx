@@ -6,20 +6,7 @@ export default function GithubUsers() {
   const [userName, setUsername] = useState("FlackoCodes");
   const [userData, setUserData] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [theme, setTheme] = useState("dark");
 
-  useEffect(() => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [theme]);
-
-  const handleSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-    console.log("toggle theme");
-  };
 
   async function fetchGithubUser() {
     try {
@@ -65,7 +52,6 @@ export default function GithubUsers() {
           <h2 className="text-white font-bold font-mono">devFinder</h2>
         </div>
         <div
-          onClick={handleSwitch}
           className="flex gap-2 items-center cursor-pointer"
         >
           <h2 className="uppercase text-white font-bold">light</h2>
